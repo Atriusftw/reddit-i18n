@@ -564,7 +564,7 @@ msgstr ""
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr "For å bruke de, besøk [/gold](gold) eller din favorittpersons brukerside."
+msgstr "For å bruke de, besøk [/gold](/gold) eller din favorittpersons brukerside."
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
