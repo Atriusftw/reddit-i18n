@@ -102,7 +102,7 @@ msgstr "for mange bilder (du får bare %d )"
 
 #: r2/controllers/api.py:1227
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "ugyldig bilde eller generelt bildeproblem"
 
 #: r2/controllers/api.py:1682
 msgid "claimed! now go to someone's userpage and give them a present!"
@@ -118,15 +118,15 @@ msgstr "en e-post vil bli sendt til den kontoens e-post straks"
 
 #: r2/controllers/api.py:1705
 msgid "try again tomorrow"
-msgstr ""
+msgstr "prøv igjen i morgen"
 
 #: r2/controllers/api.py:1932 r2/controllers/api.py:2113
 msgid "invalid css class"
-msgstr ""
+msgstr "ugyldig css klasse"
 
 #: r2/controllers/api.py:1935 r2/controllers/api.py:2116
 msgid "too many css classes"
-msgstr ""
+msgstr "for mange css klasser"
 
 #: r2/controllers/api.py:2132
 msgid "max flair templates reached"
@@ -205,11 +205,11 @@ msgstr "brukernavnet har allerede blitt tatt"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "brukernavnet er tatt av en slettet konto"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "du kan ikke sende til en bruker du har blokkert"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
@@ -221,7 +221,7 @@ msgstr "du kan ikke gjøre det"
 
 #: r2/controllers/errors.py:38
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "du er ikke logget inn som den brukeren"
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
@@ -310,7 +310,7 @@ msgstr "du har ikke tillatelse til å poste der."
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "du må angi en subreddit"
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
@@ -319,7 +319,7 @@ msgstr "det navnet kommer ikke til å virke"
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "du gjør det for ofte. prøv igjen om %(time)s."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
@@ -361,7 +361,8 @@ msgstr ""
 msgid ""
 "reddit advertising is blacked out from %(start)s to %(end)s. please select "
 "different dates."
-msgstr ""
+msgstr "reddit reklamering er mørklagt fra %(start)s til %(end)s. vennligst velg "
+"andre datoer"
 
 #: r2/controllers/errors.py:75
 msgid "please provide a date of the form mm/dd/yyyy"
@@ -402,27 +403,27 @@ msgstr "vi trenger noe her"
 
 #: r2/controllers/errors.py:83
 msgid "we've never seen that code before"
-msgstr ""
+msgstr "vi har aldri sett den koden før"
 
 #: r2/controllers/errors.py:84
 msgid "that code has already been claimed -- perhaps by you?"
-msgstr ""
+msgstr "den koden har allerede blitt hevdet -- kanskje av deg?"
 
 #: r2/controllers/errors.py:85
 msgid "that reddit doesn't allow text posts"
-msgstr ""
+msgstr "den redditen tillater ikke tekstposter"
 
 #: r2/controllers/errors.py:86
 msgid "that reddit only allows text posts"
-msgstr ""
+msgstr "den redditen tillatter kun tekstposter"
 
 #: r2/controllers/errors.py:87
 msgid "that's a piece of history now; it's too late to reply to it"
-msgstr ""
+msgstr "det er et stykke historie nå; det er for sent å svare på det"
 
 #: r2/controllers/errors.py:88
 msgid "invalid css name"
-msgstr ""
+msgstr "ugyldig css navn"
 
 #: r2/controllers/errors.py:89
 msgid "too many flair css classes"
@@ -430,11 +431,11 @@ msgstr ""
 
 #: r2/controllers/errors.py:90
 msgid "invalid client id"
-msgstr ""
+msgstr "ugyldig klient id"
 
 #: r2/controllers/errors.py:91
 msgid "access denied by the user"
-msgstr ""
+msgstr "tilgang avslått av brukeren"
 
 #: r2/controllers/errors.py:92
 msgid "please confirm the form"
@@ -450,17 +451,17 @@ msgstr "selvbetjeningshjelp"
 
 #: r2/controllers/front.py:301
 msgid "no comments (yet)"
-msgstr ""
+msgstr "ingen kommentarer (enda)"
 
 #: r2/controllers/front.py:303
 #, python-format
 msgid "all %d comments"
-msgstr ""
+msgstr "alle %d kommentarer"
 
 #: r2/controllers/front.py:305
 #, python-format
 msgid "top %d comments"
-msgstr ""
+msgstr "topp %d kommentarer"
 
 #: r2/controllers/front.py:328
 #, python-format
@@ -470,7 +471,7 @@ msgstr ""
 #: r2/controllers/front.py:330
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "vis %d"
 
 #: r2/controllers/front.py:346
 msgid "create a reddit"
@@ -478,7 +479,7 @@ msgstr "opprett en reddit"
 
 #: r2/controllers/front.py:348 r2/templates/createsubreddit.html:49
 msgid "create a community"
-msgstr ""
+msgstr "lag et samfunn"
 
 #: r2/controllers/front.py:401 r2/controllers/front.py:407
 #: r2/controllers/listingcontroller.py:621
@@ -538,7 +539,7 @@ msgstr "velkommen tilbake"
 
 #: r2/controllers/front.py:1094
 msgid "thanks"
-msgstr ""
+msgstr "takk"
 
 #: r2/controllers/front.py:1127 r2/controllers/front.py:1149
 #: r2/lib/menus.py:101 r2/templates/gold.html:84
@@ -547,15 +548,15 @@ msgstr ""
 
 #: r2/controllers/ipn.py:228
 msgid "nice try."
-msgstr ""
+msgstr "godt forsøk."
 
 #: r2/controllers/ipn.py:276
 msgid "the gold has been delivered!"
-msgstr ""
+msgstr "gullet har blitt levert!"
 
 #: r2/controllers/ipn.py:449
 msgid "thanks for buying reddit gold!"
-msgstr ""
+msgstr "takk for at du kjøpte reddit gold!"
 
 #: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
@@ -563,16 +564,16 @@ msgstr ""
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr ""
+msgstr "For å bruke de, besøk [/gold](gold) eller din favorittpersons brukerside."
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
-msgstr ""
+msgstr "takk for at du ga reddit gold!"
 
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr ""
+msgstr "Din gave til %s har blitt levert."
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
@@ -657,7 +658,7 @@ msgstr "kommentarer"
 
 #: r2/controllers/oauth2.py:42
 msgid "My Identity"
-msgstr ""
+msgstr "Min identitet"
 
 #: r2/controllers/oauth2.py:43
 msgid "Access my reddit username and signup date."
@@ -857,7 +858,7 @@ msgstr "innstillinger"
 
 #: r2/lib/menus.py:89
 msgid "blog"
-msgstr ""
+msgstr "blogg"
 
 #: r2/lib/menus.py:90 r2/templates/utils.html:413
 msgid "logout"
@@ -865,11 +866,11 @@ msgstr "logg ut"
 
 #: r2/lib/menus.py:93
 msgid "contact us"
-msgstr ""
+msgstr "kontakt oss"
 
 #: r2/lib/menus.py:94
 msgid "firefox extension"
-msgstr ""
+msgstr "firefox utvidelse"
 
 #: r2/lib/menus.py:95
 msgid "buttons"
@@ -893,11 +894,11 @@ msgstr "butikk"
 
 #: r2/lib/menus.py:100
 msgid "advertise"
-msgstr ""
+msgstr "reklamer"
 
 #: r2/lib/menus.py:102
 msgid "subreddits"
-msgstr ""
+msgstr "subredditer"
 
 #: r2/lib/menus.py:105 r2/templates/promotelinkform.html:318
 msgid "options"
@@ -960,12 +961,12 @@ msgstr "om"
 
 #: r2/lib/menus.py:126
 msgid "edit subscriptions"
-msgstr ""
+msgstr "endre abonnementer"
 
 #: r2/lib/menus.py:127 r2/lib/pages/pages.py:1045
 #: r2/templates/createsubreddit.html:39
 msgid "community settings"
-msgstr ""
+msgstr "samfunn instillinger"
 
 #: r2/lib/menus.py:128
 msgid "edit moderators"
@@ -1066,7 +1067,7 @@ msgstr "gjemt"
 
 #: r2/lib/menus.py:158 r2/templates/printablebuttons.html:58
 msgid "reported"
-msgstr "anmeldt"
+msgstr "rapportert"
 
 #: r2/lib/menus.py:160
 msgid "self-serve advertising"
